@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "interactive-ai-api/example-interactive-typescript",
+  "version": "0.1.0",
+  "title": "Example Interactive TypeScript",
+  "category": "text",
+  "icon": "media-interactive",
+  "description": "An interactive block with the Interactivity API using TypeScript.",
+  "example": {},
+  "supports": {
+    "interactivity": true
+  },
+  "attributes": {
+    "aiGeneratedText": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "example-interactive-typescript",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.ts"
+}
